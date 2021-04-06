@@ -9,6 +9,6 @@ export const YoutubeButton = styled.div`
   border-radius: 50%;
   border: 0;
   color: white;
-  margin: 20px auto;
+  margin: 40px auto;
   background-color: #d52027;
 `;

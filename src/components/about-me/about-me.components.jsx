@@ -1,13 +1,64 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import SectionTitle from "../section-title/sectionTitle.component";
 import YoutubeButton from "../youtube-button/YoutubeButton.component";
+import * as MT from "./about-me.styles";
+import * as GA from "../green-arrows/GreenArrow.styles";
+import GreenArrowDown from "../green-arrows/GreenArrowDown.component";
 
 const AboutMe = () => {
+  const [data, setData] = useState({});
+
+  useEffect(() => {
+    try {
+      const getResults = async () => {
+        const result = await fetch("http://localhost:5000/welcome");
+        const resultParse = await result.json();
+        setData(resultParse);
+      };
+      getResults();
+    } catch (error) {
+      console.log("nu merge useEffect", error);
+    }
+  }, []);
+
   return (
     <div>
       <SectionTitle />
       <YoutubeButton />
+      <MT.MainTitle>{data.mainTitle}</MT.MainTitle>
+      <MT.SubTitle>{data.subTitle}</MT.SubTitle>
+      <MT.LeadTitle>{data.leadTitle}</MT.LeadTitle>
+      <MT.AboutBox>
+        <MT.description>{data.descriptionList}</MT.description>
+      </MT.AboutBox>
+      <DownloadButton />
+      <GreenArrowDown />
     </div>
+  );
+};
+
+const DownloadButton = () => {
+  const [data, setData] = useState({});
+
+  useEffect(() => {
+    try {
+      const getResults = async () => {
+        const result = await fetch("http://localhost:5000/welcome");
+        const resultParse = await result.json();
+        setData(resultParse);
+      };
+      getResults();
+    } catch (error) {
+      console.log("nu merge useEffect", error);
+    }
+  }, []);
+
+  return (
+    <GA.DownloadButtonWrapper>
+      <GA.DownloadButton>
+        <GA.PillBlue>{data.downloadButtonLabel}</GA.PillBlue>
+      </GA.DownloadButton>
+    </GA.DownloadButtonWrapper>
   );
 };
 
