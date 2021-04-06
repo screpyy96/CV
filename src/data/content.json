@@ -1,0 +1,22 @@
+{
+  "welcome": {
+    "sectionTitle": "Welcome to My CV",
+    "mainTitle": "Iosif Screpciuc",
+    "subTitle": "Junior Developer",
+    "leadTitle": "About Me",
+    "descriptionList": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus."
+    ],
+    "downloadButtonLabel": "Download CV"
+  },
+  "connect": {
+    "sectionTitle": "Welcome to My CV",
+    "mainTitle": "Iosif Screpciuc",
+    "subTitle": "Junior Developer",
+    "leadTitle": "About Me",
+    "descriptionList": [
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus."
+    ],
+    "downloadButtonLabel": "Download CV"
+  }
+}
