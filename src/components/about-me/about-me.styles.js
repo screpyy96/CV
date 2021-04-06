@@ -1,3 +1,3 @@
 import styled from "styled-components";
 
-export const DataBox = styled.div``;
+// export const DataBox = styled.div``;

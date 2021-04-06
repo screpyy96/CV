@@ -1,14 +1,12 @@
 import React from "react";
 import SectionTitle from "../section-title/sectionTitle.component";
-import * as AB from "./about-me.styles";
+import YoutubeButton from "../youtube-button/YoutubeButton.component";
 
 const AboutMe = () => {
   return (
     <div>
       <SectionTitle />
-      <AB.DataBox>
-        <h1>asd</h1>
-      </AB.DataBox>
+      <YoutubeButton />
     </div>
   );
 };

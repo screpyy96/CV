@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import * as ST from "../section-title/SectionTitle.styled";
 
 const SectionTitle = () => {
   const [data, setData] = useState({});
@@ -16,7 +17,13 @@ const SectionTitle = () => {
     }
   }, []);
 
-  return <div>{data.sectionTitle}</div>;
+  return (
+    <div>
+      <ST.SectionTitleWrapper>
+        <ST.MainTitle>{data.sectionTitle}</ST.MainTitle>
+      </ST.SectionTitleWrapper>
+    </div>
+  );
 };
 
 export default SectionTitle;
