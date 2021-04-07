@@ -10,13 +10,87 @@
     "downloadButtonLabel": "Download CV"
   },
   "connect": {
-    "sectionTitle": "Welcome to My CV",
-    "mainTitle": "Iosif Screpciuc",
-    "subTitle": "Junior Developer",
-    "leadTitle": "About Me",
-    "descriptionList": [
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus."
-    ],
-    "downloadButtonLabel": "Download CV"
+    "sectionTitle": "Let's Connect",
+    "socialList": [
+      {
+        "icon": "codetap",
+        "title": "Codetap",
+        "description": "Junior Web Developer with the help of CodeTap Academy",
+        "label": "codetap.academy",
+        "link": "http://codetap.academy"
+      },
+
+      {
+        "icon": "github",
+        "title": "Github",
+        "description": "There are more projects where you can see me working with HTML, CSS..",
+        "label": "github.com/",
+        "link": "http://github.com/"
+      },
+
+      {
+        "icon": "linkedin",
+        "title": "LinkedIn",
+        "description": "We can connect even on LinkedIn",
+        "label": "linkedin.com/",
+        "link": "https://www.linkedin.com/"
+      },
+
+      {
+        "icon": "stackoverflow",
+        "title": "Stack Overflow",
+        "description": "Visit my Stack Overflow profile down below.",
+        "label": "stackoverflow.com/",
+        "link": "https://stackoverflow.com/"
+      },
+
+      {
+        "icon": "codewars",
+        "title": "Codewars",
+        "description": "You can see more of my progress here.",
+        "label": "codewars.com/",
+        "link": "https://www.codewars.com/"
+      },
+
+      {
+        "icon": "udemy",
+        "title": "Udemy",
+        "description": "You can see more of my progress here.",
+        "label": "udemy.com/",
+        "link": "https://www.udemy.com/"
+      },
+
+      {
+        "icon": "facebook",
+        "title": "Facebook",
+        "description": "If you want to see more about me and have a good laugh, then go ahead and add me on Facebook",
+        "label": "facebook.com/",
+        "link": "https://www.facebook.com/"
+      },
+
+      {
+        "icon": "skype",
+        "title": "Skype",
+        "description": "Here is my Skype account.",
+        "label": "join.skype.com/",
+        "link": "https://join.skype.com/"
+      },
+
+      {
+        "icon": "instagram",
+        "title": "Instagram",
+        "description": "Instagram is where you can find me most active when I am off.",
+        "label": "instagram.com/mushyroom.m",
+        "link": "https://www.instagram.com/"
+      },
+
+      {
+        "icon": "twitter",
+        "title": "Twitter",
+        "description": "This is not the most favourite social media, but hey! You can find me here too!",
+        "label": "twitter.com/",
+        "link": "https://twitter.com/"
+      }
+    ]
   }
 }

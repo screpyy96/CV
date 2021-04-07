@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const DiscGreenWrapper = styled.button`
+export const DiscGreenWrapper = styled.div`
   width: 40px;
   height: 40px;
   display: flex;
@@ -13,7 +13,7 @@ export const DiscGreenWrapper = styled.button`
   background-color: #50d166;
 `;
 
-export const DownloadButton = styled.button`
+export const DownloadButton = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;

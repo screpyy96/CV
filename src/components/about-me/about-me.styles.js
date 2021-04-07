@@ -5,7 +5,6 @@ export const MainTitle = styled.div`
   color: #707070;
   text-align: center;
   font-size: 60px;
-  padding-top: -20px;
 `;
 
 export const SubTitle = styled.div`
@@ -28,7 +27,7 @@ export const LeadTitle = styled.div`
 export const AboutBox = styled.div`
   background-color: white;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
-  padding: 20px;
+  padding: 20px auto;
   border-radius: 6px;
 `;
 

@@ -11,9 +11,10 @@ const AboutMe = () => {
   useEffect(() => {
     try {
       const getResults = async () => {
-        const result = await fetch("http://localhost:5000/welcome");
-        const resultParse = await result.json();
-        setData(resultParse);
+        const result = await (
+          await fetch("http://localhost:5000/welcome")
+        ).json();
+        setData(result);
       };
       getResults();
     } catch (error) {
@@ -23,7 +24,7 @@ const AboutMe = () => {
 
   return (
     <div>
-      <SectionTitle />
+      <SectionTitle title={data.sectionTitle} />
       <YoutubeButton />
       <MT.MainTitle>{data.mainTitle}</MT.MainTitle>
       <MT.SubTitle>{data.subTitle}</MT.SubTitle>
