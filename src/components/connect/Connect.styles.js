@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import myImage from "../../assets/image/me.jpg";
+import Icon from "../icomoon/IcoMoon.component";
 
 export const AvatarWrapper = styled.div`
   // margin-top: 50px;
@@ -29,5 +30,21 @@ export const AvatarImage = styled.img.attrs({ src: `${myImage}` })`
 
 export const Row = styled.span`
   display: grid;
-  grid-column: 1/-1;
+`;
+export const IconWrapper = styled(Icon)`
+  background-color: blue;
+  transition: 250ms;
+  background: #1875f0;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  height: 90px;
+  width: 90px;
+  font-size: 50px;
+`;
+export const GridWrapper = styled.div`
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 100px 100px 100px 100px;
+  /* grid-template-columns: repeat(4, 1fr); */
 `;

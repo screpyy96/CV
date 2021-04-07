@@ -8,3 +8,7 @@
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
+
+.icon__download {
+  padding-left: 10px;
+}

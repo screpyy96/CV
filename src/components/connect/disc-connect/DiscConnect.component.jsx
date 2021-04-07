@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import * as DW from "../Connect.styles";
 
 const DiscConnect = () => {
   const [data, setData] = useState({});
@@ -16,8 +17,17 @@ const DiscConnect = () => {
       console.log("nu merge useEffect", error);
     }
   }, []);
+  console.log(data);
 
-  return <div></div>;
+  return (
+    <DW.GridWrapper>
+      {data &&
+        data.socialList &&
+        data.socialList.map((item) => {
+          return <DW.IconWrapper icon={item.icon} color="white" size="50%" />;
+        })}
+    </DW.GridWrapper>
+  );
 };
 
 export default DiscConnect;

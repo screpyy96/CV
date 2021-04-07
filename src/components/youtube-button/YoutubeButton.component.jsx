@@ -1,10 +1,11 @@
 import React from "react";
 import * as YT from "./Youtube.styled";
+import Icon from "../icomoon/IcoMoon.component";
 
 const YoutubeButton = () => {
   return (
     <YT.YoutubeButton>
-      <i>Y</i>
+      <Icon size="60%" icon="youtube" color="white" />
     </YT.YoutubeButton>
   );
 };

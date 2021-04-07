@@ -1,10 +1,11 @@
 import React from "react";
 import * as GA from "./GreenArrow.styles";
+import Icon from "../icomoon/IcoMoon.component";
 
 const GreenArrowDown = () => {
   return (
     <GA.DiscGreenWrapper>
-      <p>A</p>
+      <Icon size="50%" icon="arrow-down" color="white" />
     </GA.DiscGreenWrapper>
   );
 };

@@ -33,11 +33,10 @@ export const PillBlue = styled.div`
   border-radius: 20px;
   border: 0;
   color: white;
-  margin: 0 auto 0;
   background-color: #1875f0;
   width: 160px;
   height: 40px;
-  padding: 0 24px;
-  font-size: 10px;
+  padding: 0 20px;
+  font-size: 14px;
   font-weight: bolder;
 `;
