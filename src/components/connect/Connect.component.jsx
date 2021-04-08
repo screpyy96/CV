@@ -3,6 +3,7 @@ import SectionTitle from "../section-title/sectionTitle.component";
 import * as CS from "./Connect.styles";
 import YoutubeButton from "../youtube-button/YoutubeButton.component";
 import DiscConnect from "./disc-connect/DiscConnect.component";
+import GreenArrowDown from "../green-arrows/GreenArrowDown.component";
 
 const Connect = () => {
   // aici o sa fac rost de date de pe server
@@ -32,6 +33,7 @@ const Connect = () => {
         <CS.AvatarImage />
       </CS.AvatarWrapper>
       <DiscConnect />
+      <GreenArrowDown />
     </div>
   );
 };

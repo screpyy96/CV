@@ -1,6 +1,7 @@
 import React from "react";
 import * as GA from "./GreenArrow.styles";
 import Icon from "../icomoon/IcoMoon.component";
+import "../../index.css";
 
 const GreenArrowDown = () => {
   return (

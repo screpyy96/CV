@@ -60,17 +60,15 @@ const DownloadButton = () => {
 
   return (
     <GA.DownloadButtonWrapper>
-      <GA.DownloadButton>
-        <GA.PillBlue>
-          <Icon
-            size="50%"
-            icon="download"
-            color="white"
-            className="icon__download"
-          />
-          {data.downloadButtonLabel}
-        </GA.PillBlue>
-      </GA.DownloadButton>
+      <GA.PillBlue>
+        <Icon
+          size="50%"
+          icon="download"
+          color="white"
+          className="icon__download"
+        />
+        {data.downloadButtonLabel}
+      </GA.PillBlue>
     </GA.DownloadButtonWrapper>
   );
 };

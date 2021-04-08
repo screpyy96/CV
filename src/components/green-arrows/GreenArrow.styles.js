@@ -13,12 +13,6 @@ export const DiscGreenWrapper = styled.div`
   background-color: #50d166;
 `;
 
-export const DownloadButton = styled.div`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-`;
-
 export const DownloadButtonWrapper = styled.div`
   display: flex;
   justify-content: center;
@@ -31,12 +25,10 @@ export const PillBlue = styled.div`
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  border: 0;
   color: white;
   background-color: #1875f0;
   width: 160px;
   height: 40px;
-  padding: 0 20px;
-  font-size: 14px;
   font-weight: bolder;
+  font-size: 11px;
 `;

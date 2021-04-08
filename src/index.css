@@ -10,5 +10,6 @@
 }
 
 .icon__download {
-  padding-left: 10px;
+  font-size: medium;
+  margin: -20px;
 }

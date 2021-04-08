@@ -24,7 +24,7 @@ const DiscConnect = () => {
       {data &&
         data.socialList &&
         data.socialList.map((item) => {
-          return <DW.IconWrapper icon={item.icon} color="white" size="50%" />;
+          return <DW.IconWrapper icon={item.icon} color="white" size={90} />;
         })}
     </DW.GridWrapper>
   );

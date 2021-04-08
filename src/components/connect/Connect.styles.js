@@ -14,7 +14,7 @@ export const AvatarImage = styled.img.attrs({ src: `${myImage}` })`
   border-radius: 8px;
   // transform: rotate(-2.5deg);
   padding: 10px;
-  margin-left: -8px;
+  margin-left: 10px;
 
   &:after {
     content: "";
@@ -28,23 +28,19 @@ export const AvatarImage = styled.img.attrs({ src: `${myImage}` })`
   }
 `;
 
-export const Row = styled.span`
-  display: grid;
-`;
 export const IconWrapper = styled(Icon)`
   background-color: blue;
   transition: 250ms;
-  background: #1875f0;
+  background-color: #1875f0;
   border-radius: 50%;
-  color: white;
   cursor: pointer;
-  height: 90px;
-  width: 90px;
-  font-size: 50px;
+  padding: 20px;
 `;
+
 export const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
   grid-template-columns: 100px 100px 100px 100px;
   /* grid-template-columns: repeat(4, 1fr); */
+  padding-left: 10px;
 `;
