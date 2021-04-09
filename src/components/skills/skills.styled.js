@@ -16,9 +16,10 @@ export const BoxWrapper = styled.div`
   margin: 0 auto;
 `;
 export const Mizerie = styled.div`
+  padding: 10px;
   border-bottom: 2px solid grey;
   display: grid;
-  grid-template-columns: 50px 225px 50px;
+  grid-template-columns: 30px 215px 50px;
   &:last-child {
     border: 0;
   }
