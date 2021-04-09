@@ -4,7 +4,7 @@ import * as IS from "./infobox.style";
 import Cell from "./cell.component";
 import Icon from "../../icomoon/IcoMoon.component";
 
-const Infobox = ({ icon, title, description, label, link, close }) => {
+const Infobox = ({ title, description, label, link, close }) => {
   return (
     <IS.StyledWrapper>
       <IS.WrapperHead>

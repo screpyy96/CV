@@ -4,12 +4,10 @@ import Button from "./button.component";
 import Infobox from "./infobox.component";
 import Cell from "./cell.component";
 import Icon from "../../icomoon/IcoMoon.component";
-import { iconList } from "icomoon-react";
-import iconSet from "../../../assets/selection.json";
 
 const DiscConnect = () => {
   const [data, setData] = useState({});
-  const [selected, updateSelected] = useState();
+  const [selected, updateSelected] = useState(null);
 
   useEffect(() => {
     try {
@@ -33,6 +31,7 @@ const DiscConnect = () => {
     updateSelected(socialList.find((a) => a.icon === icon));
   };
 
+  // console.log(iconList(iconSet));
   return (
     <DC.GridWrapper>
       {socialList.map(({ icon }) => {

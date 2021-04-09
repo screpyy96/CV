@@ -92,5 +92,154 @@
         "link": "https://twitter.com/"
       }
     ]
+  },
+  "skills": {
+    "sectionTitle": "Skills",
+    "legend": {
+      "title": "Legend",
+      "itemList": [
+        {
+          "icon": "heart",
+          "color": "red",
+          "label": "Skills I Love"
+        },
+        {
+          "icon": "trophy",
+          "color": "yellow",
+          "label": "Skills I'm good at"
+        },
+        {
+          "icon": "stars",
+          "color": "pink",
+          "label": "Skills I'd love to have"
+        }
+      ]
+    },
+
+    "skillTypeList": [
+      {
+        "type": "Front End",
+        "skillList": [
+          {
+            "type": "heart",
+            "label": "HTML"
+          },
+          {
+            "type": "heart",
+            "label": "CSS"
+          },
+          {
+            "type": "heart",
+            "label": "JavaScript"
+          },
+          {
+            "type": "heart",
+            "label": "React"
+          },
+          {
+            "type": "heart",
+            "label": "Redux"
+          },
+          {
+            "type": "trophy",
+            "label": "Styled Components"
+          },
+          {
+            "type": "trophy",
+            "label": "SASS"
+          },
+          {
+            "type": "trophy",
+            "label": "LESS"
+          },
+          {
+            "type": "trophy",
+            "label": "Material UI"
+          },
+          {
+            "type": "trophy",
+            "label": "Seo"
+          }
+        ]
+      },
+      {
+        "type": "Back End",
+        "skillList": [
+          {
+            "type": "heart",
+            "label": "Pug"
+          },
+          {
+            "type": "heart",
+            "label": "Nodejs"
+          },
+          {
+            "type": "heart",
+            "label": "Firebase"
+          },
+          {
+            "type": "trophy",
+            "label": "Git"
+          },
+          {
+            "type": "trophy",
+            "label": "Linux"
+          },
+          {
+            "type": "trophy",
+            "label": "Rest"
+          },
+          {
+            "type": "trophy",
+            "label": "MySQL"
+          },
+          {
+            "type": "book",
+            "label": "AWS"
+          },
+          {
+            "type": "book",
+            "label": "BlockChain"
+          },
+          {
+            "type": "book",
+            "label": "ElasticSearch"
+          },
+          {
+            "type": "book",
+            "label": "GraphQL"
+          }
+        ]
+      },
+      {
+        "type": "Others",
+        "skillList": [
+          {
+            "type": "heart",
+            "label": "Windows"
+          },
+          {
+            "type": "heart",
+            "label": "Linux"
+          },
+          {
+            "type": "heart",
+            "label": "Mac"
+          },
+          {
+            "type": "trophy",
+            "label": "Jira"
+          },
+          {
+            "type": "trophy",
+            "label": "Agile"
+          },
+          {
+            "type": "trophy",
+            "label": "Rest"
+          }
+        ]
+      }
+    ]
   }
 }

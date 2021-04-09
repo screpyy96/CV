@@ -22,6 +22,7 @@ export const LeadTitle = styled.div`
   font-weight: 600;
   color: #808080;
   padding-top: 30px;
+  padding-bottom: 20px;
 `;
 
 export const AboutBox = styled.div`

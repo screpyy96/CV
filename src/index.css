@@ -7,9 +7,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
+  /* overflow-x: hidden; */
 }
-
+.cheie {
+  padding-left: 30px;
+}
 .icon__download {
   font-size: medium;
   margin: -20px;
+}
+
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
 }
