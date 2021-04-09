@@ -27,7 +27,6 @@ const Connect = () => {
   return (
     <div>
       <SectionTitle title={data.sectionTitle} />
-
       <YoutubeButton />
       <CS.AvatarWrapper>
         <CS.AvatarImage />

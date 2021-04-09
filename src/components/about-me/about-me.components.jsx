@@ -31,10 +31,10 @@ const AboutMe = () => {
       <MT.SubTitle>{data.subTitle}</MT.SubTitle>
       <MT.LeadTitle>{data.leadTitle}</MT.LeadTitle>
       <MT.AboutBox>
-        <MT.description>
+        <MT.Description>
           {data.descriptionList}
           {data.downloadLabel}
-        </MT.description>
+        </MT.Description>
       </MT.AboutBox>
       <DownloadButton />
       <GreenArrowDown />

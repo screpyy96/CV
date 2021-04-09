@@ -31,7 +31,7 @@ export const AboutBox = styled.div`
   border-radius: 6px;
 `;
 
-export const description = styled.p`
+export const Description = styled.p`
   font-size: 14;
   color: #707070;
   font-weight: 600;

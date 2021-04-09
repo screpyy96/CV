@@ -1,8 +1,15 @@
 import React, { useEffect, useState } from "react";
-import * as DW from "../Connect.styles";
+import * as DC from "../Connect.styles";
+import Button from "./button.component";
+import Infobox from "./infobox.component";
+import Cell from "./cell.component";
+import Icon from "../../icomoon/IcoMoon.component";
+import { iconList } from "icomoon-react";
+import iconSet from "../../../assets/selection.json";
 
 const DiscConnect = () => {
   const [data, setData] = useState({});
+  const [selected, updateSelected] = useState();
 
   useEffect(() => {
     try {
@@ -14,19 +21,39 @@ const DiscConnect = () => {
       };
       getResults();
     } catch (error) {
-      console.log("nu merge useEffect", error);
+      console.log(error);
     }
   }, []);
-  console.log(data);
+
+  const { socialList = [] } = data;
+
+  const hide = () => updateSelected(null);
+
+  const selectMe = (icon) => {
+    updateSelected(socialList.find((a) => a.icon === icon));
+  };
 
   return (
-    <DW.GridWrapper>
-      {data &&
-        data.socialList &&
-        data.socialList.map((item) => {
-          return <DW.IconWrapper icon={item.icon} color="white" size={90} />;
-        })}
-    </DW.GridWrapper>
+    <DC.GridWrapper>
+      {socialList.map(({ icon }) => {
+        return (
+          <Button
+            key={icon}
+            onClick={() => selectMe(icon)}
+            size="68px"
+            type="disc"
+            bgCuloare={icon === selected?.icon ? "#D52027" : "#1875F0"}
+          >
+            <Icon size="40%" icon={icon} color="white" />
+          </Button>
+        );
+      })}
+      {selected && (
+        <Cell jc="center">
+          <Infobox {...selected} close={hide} />
+        </Cell>
+      )}
+    </DC.GridWrapper>
   );
 };
 
