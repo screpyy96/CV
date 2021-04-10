@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { LeadTitle, BoxWrapper, Mizerie } from "./skills.styled";
+import { LeadTitle, BoxWrapper, ItemWrapper } from "./skills.styled";
 import Icon from "../icomoon/IcoMoon.component";
-import "../../index.css";
 
 const Legend = () => {
   const [data, setData] = useState({});
@@ -26,16 +25,16 @@ const Legend = () => {
     <>
       <LeadTitle>{legend.title}</LeadTitle>
       <div>
-        <BoxWrapper className="boxWrapper">
+        <BoxWrapper>
           {itemList.map((item, i) => {
             return (
-              <Mizerie key={i} className="mizerie">
+              <ItemWrapper key={i}>
                 <Icon icon={item.icon} color={item.color} size="20" />
                 <p>{item.label} </p>
-                <div className="cheie">
+                <div>
                   <p>{i + 1} </p>
                 </div>
-              </Mizerie>
+              </ItemWrapper>
             );
           })}
         </BoxWrapper>

@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react";
 import SectionTitle from "../section-title/sectionTitle.component";
 import YoutubeButton from "../youtube-button/YoutubeButton.component";
 import Legend from "./legend.component";
+import FrontEnd from "./front-end.component";
+import { Description } from "../about-me/about-me.styles";
 
 const Skills = () => {
   const [data, setData] = useState({});
@@ -24,6 +26,8 @@ const Skills = () => {
       <SectionTitle title={data.sectionTitle} />
       <YoutubeButton />
       <Legend />
+      <FrontEnd />
+      <Description>{data.description}</Description>
     </div>
   );
 };

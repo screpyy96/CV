@@ -100,17 +100,17 @@
       "itemList": [
         {
           "icon": "heart",
-          "color": "red",
+          "color": "#D52027",
           "label": "Skills I Love"
         },
         {
           "icon": "trophy",
-          "color": "yellow",
+          "color": "#F18F1C",
           "label": "Skills I'm good at"
         },
         {
-          "icon": "stars",
-          "color": "pink",
+          "icon": "book",
+          "color": "#50D166",
           "label": "Skills I'd love to have"
         }
       ]
@@ -240,6 +240,7 @@
           }
         ]
       }
-    ]
+    ],
+    "description": "I am more of the one who wants to improve rather than the one who always wants to prove. Will hustle in silence and let my success make the noise."
   }
 }

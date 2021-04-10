@@ -39,4 +39,10 @@ export const Description = styled.p`
   line-height: 30px;
   display: flex;
   justify-content: center;
+  background-color: white;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
+  padding: 20px auto;
+  border-radius: 6px;
+  padding: 20px;
+  margin-top: 15px;
 `;

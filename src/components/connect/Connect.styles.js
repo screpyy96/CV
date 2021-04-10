@@ -34,15 +34,6 @@ export const AvatarImage = styled.img.attrs({ src: `${myImage}` })`
   }
 `;
 
-// export const IconWrapper = styled(Icon)`
-//   background-color: blue;
-//   transition: 250ms;
-//   background-color: #1875f0;
-//   border-radius: 50%;
-//   cursor: pointer;
-//   padding: 20px;
-// `;
-
 export const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
