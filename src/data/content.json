@@ -247,11 +247,11 @@
     "sectionTitle": "Experience",
     "jobList": [
       {
-        "jobTitle": "Junior Web Developer",
+        "jobTitle": "Top Developer ",
         "startDate": "February 2021",
         "endDate": "present",
-        "iconPath": "bitbee.png",
-        "companyName": "BitBee Limited",
+        "iconPath": "../assets/image/argus.png",
+        "companyName": " BitBee Limited",
         "infoList": [
           "Building websites in a team to increase efficiency and to deliver better and faster products",
           "Actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux",
@@ -260,11 +260,11 @@
         ]
       },
       {
-        "jobTitle": "Company Director",
+        "jobTitle": "Top Developer",
         "startDate": "July 2018",
         "endDate": "present",
-        "iconPath": "movmil.png",
-        "companyName": "MOVMIL LTD",
+        "iconPath": "argus.png",
+        "companyName": " MOVMIL LTD",
         "infoList": [
           "Act within my powers as a company director",
           "Promote the success of the company",
@@ -273,10 +273,10 @@
         ]
       },
       {
-        "jobTitle": "Head Bartender",
+        "jobTitle": "Top Developer",
         "startDate": "November 2018",
         "endDate": "June 2020",
-        "iconPath": "fego.png",
+        "iconPath": "argus.png",
         "companyName": "Fego UK",
         "infoList": [
           "Greet all customers with fast, friendly, personalised service and develops a rapport with customers",

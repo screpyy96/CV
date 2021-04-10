@@ -7,7 +7,7 @@ const colorList = {
 export const TagStyle = styled.div`
   display: inline-flex;
   align-items: center;
-  background-color: ${({ tip }) => colorList[tip]};
+  background-color: ${({ type }) => colorList[type]};
   color: white;
   margin-right: 10px;
   margin-bottom: 10px;

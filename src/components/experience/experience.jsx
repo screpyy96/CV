@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import SectionTitle from "../section-title/sectionTitle.component";
 import YoutubeButton from "../youtube-button/YoutubeButton.component";
+import AccordionTop from "./AccordionTop";
 
 const Experience = () => {
   const [data, setData] = useState({});
@@ -22,6 +23,7 @@ const Experience = () => {
     <>
       <SectionTitle title={data.sectionTitle} />
       <YoutubeButton />
+      <AccordionTop />
     </>
   );
 };

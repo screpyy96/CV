@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+
+/* Style the accordion section */
+.accordion__section {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid grey;
+  /* border-radius: 6px; */
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+  background-color: white;
+  /* color: #444; */
+  cursor: pointer;
+  padding: 18px;
+  display: flex;
+  align-items: center;
+  border: none;
+  outline: none;
+  transition: 0.6s ease;
+}
+
+.accordion:hover,
+.active {
+  background-color: white;
+}
+
+/* Style the accordion content title */
+.accordion__title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+}
+
+.accordion__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Style the accordion chevron icon */
+.accordion__icon {
+  margin-left: auto;
+  transition: transform 0.6s ease;
+  width: 60px;
+  height: 60px;
+  border: 2px solid grey;
+  border-radius: 50%;
+  padding: 15px;
+  transform: rotate(90deg);
+}
+
+/* Style to rotate icon when state is active */
+
+.rotate {
+  transform: rotate(-90deg);
+}
+
+/* Style the accordion content  */
+.accordion__content {
+  background-color: white;
+  overflow: auto;
+  transition: max-height 0.6s ease;
+}
+
+/* Style the accordion text */
+.accordion__text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 18px;
+}
