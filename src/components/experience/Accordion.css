@@ -29,33 +29,9 @@
   border-bottom: 2px solid grey;
 } */
 
-.accordion:hover,
+.accordion,
 .active {
   background-color: white;
-}
-
-.accordion__title {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
-  font-size: 14px;
-  text-align: left;
-  color: grey;
-}
-
-.accordion__subtitle {
-  padding-top: 43px;
-  margin-left: -97px;
-  font-size: 14px;
-  color: grey;
-}
-
-.dates {
-  font-size: 14px;
-  padding-left: 20px;
-  font-family: italic;
-  border-top: 2px solid grey;
-  padding-top: 15px;
-  color: grey;
 }
 
 .accordion__icon {

@@ -1,50 +1,57 @@
-import React, { useState, useRef } from "react";
+import React, { useState } from "react";
 import Chevron from "./Chevron";
+import { images } from "../../constants/images";
+import {
+  AccordionSubTitle,
+  AccordionWrapper,
+  AccordionTitle,
+  AccordionContainer,
+  AccordionButton,
+  Dates,
+  Logo,
+  AccordionText,
+} from "./accordion.styled";
 
-import "./Accordion.css";
+const Accordion = ({ item }) => {
+  const [isExpanded, setIsExpanded] = useState(false);
 
-function Accordion(props) {
-  const [setActive, setActiveState] = useState("");
-  const [setHeight, setHeightState] = useState("0px");
-  const [setRotate, setRotateState] = useState("accordion__icon");
-
-  const content = useRef(null);
-
-  function toggleAccordion() {
-    setActiveState(setActive === "" ? "active" : "");
-    setHeightState(
-      setActive === "active" ? "0px" : `${content.current.scrollHeight}px`
-    );
-    setRotateState(
-      setActive === "active" ? "accordion__icon" : "accordion__icon rotate"
-    );
-  }
-
+  const toggleAccordion = () => {
+    setIsExpanded((value) => !value);
+  };
+  const trimIconPath = (str) => {
+    const strArr = str.split("/");
+    // sanitizare
+    // console.log(strArr);
+    // const lastArr = strArr[strArr.length - 1];
+    // console.log(lastArr);
+    // const splitExtension = lastArr.split(".");
+    // console.log(splitExtension);
+    // const myImage = splitExtension[0];
+    // console.log(myImage);
+    return strArr[strArr.length - 1].split(".")[0];
+  };
   return (
-    <div className="accordion__section">
-      <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
-        <div className="logo" />
-        <div style={{ backgroundImage: "url(/argus.png)" }}></div>
-        <p className="accordion__title">{props.title}</p>
-        <p className="accordion__subtitle">{props.subtitle} </p>
-        <Chevron className={`${setRotate}`} fill={"#777"} />
-      </button>
-      <div
-        ref={content}
-        style={{ maxHeight: `${setHeight}` }}
-        className="accordion__content "
-      >
-        <div className="dates">
-          {props.start}
-          {props.end}
-        </div>
-        <div
-          className="accordion__text"
-          dangerouslySetInnerHTML={{ __html: props.content }}
-        />
+    <AccordionWrapper>
+      <div>
+        <AccordionButton onClick={toggleAccordion}>
+          <Logo icon={images[trimIconPath(item.iconPath)]} />
+          <div>
+            <AccordionTitle>{item.companyName}</AccordionTitle>
+            <AccordionSubTitle>{item.jobTitle}</AccordionSubTitle>
+          </div>
+          <Chevron isExpanded={isExpanded} fill={"#777"} />
+        </AccordionButton>
       </div>
-    </div>
+
+      <AccordionContainer isExpanded={isExpanded}>
+        <Dates>
+          {item.startDate}
+          {item.endDate}
+        </Dates>
+        <AccordionText>{item.infoList[0]}</AccordionText>
+      </AccordionContainer>
+    </AccordionWrapper>
   );
-}
+};
 
 export default Accordion;

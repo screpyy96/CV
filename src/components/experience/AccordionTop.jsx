@@ -23,14 +23,7 @@ const AccordionTop = () => {
       {data?.jobList?.map((item, i) => {
         return (
           <div key={i}>
-            <Accordion
-              image={item.iconPath}
-              title={item.jobTitle}
-              subtitle={item.companyName}
-              content={item.infoList}
-              start={item.startDate}
-              end={item.endDate}
-            />
+            <Accordion item={item} />
           </div>
         );
       })}

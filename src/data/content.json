@@ -250,7 +250,7 @@
         "jobTitle": "Top Developer ",
         "startDate": "Dec 2021 - ",
         "endDate": "present",
-        "iconPath": "../assets/images/argus.png",
+        "iconPath": "assets/images/argus.png",
         "companyName": "London Devs",
         "infoList": [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus."
@@ -260,7 +260,7 @@
         "jobTitle": "Top Developer",
         "startDate": "Dec 2018 - ",
         "endDate": "present",
-        "iconPath": "/assets/images/argus.png",
+        "iconPath": "assets/images/colab.png",
         "companyName": "London Devs",
         "infoList": [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus."
@@ -270,7 +270,7 @@
         "jobTitle": "Top Developer",
         "startDate": "November 2018 - ",
         "endDate": "Dec 2020",
-        "iconPath": "/assets/images/argus.png",
+        "iconPath": "assets/images/arcadia.png",
         "companyName": "London Devs",
         "infoList": [
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus."
