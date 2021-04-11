@@ -24,6 +24,7 @@ const AccordionTop = () => {
         return (
           <div key={i}>
             <Accordion
+              image={item.iconPath}
               title={item.jobTitle}
               subtitle={item.companyName}
               content={item.infoList}

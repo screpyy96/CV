@@ -1,14 +1,16 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 
 .logo {
-  background: url(../../assets/image/argus.png);
+  background: url(../../assets/images/argus.png);
+  height: 50px;
+  width: 50px;
+  background-size: cover;
 }
 
 .accordion__section {
   display: flex;
   flex-direction: column;
   border: 2px solid grey;
-  /* border-radius: 6px; */
 }
 
 .accordion {
@@ -22,6 +24,10 @@
   outline: none;
   transition: 0.6s ease;
 }
+
+/* .border {
+  border-bottom: 2px solid grey;
+} */
 
 .accordion:hover,
 .active {

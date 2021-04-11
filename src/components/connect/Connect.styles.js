@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import myImage from "../../assets/image/me.jpg";
+import myImage from "../../assets/images/me.jpg";
 // import Icon from "../icomoon/IcoMoon.component";
 
 export const StyledCell = styled.div`

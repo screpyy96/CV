@@ -23,14 +23,16 @@ function Accordion(props) {
   return (
     <div className="accordion__section">
       <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
+        <div className="logo" />
+        <div style={{ backgroundImage: "url(/argus.png)" }}></div>
         <p className="accordion__title">{props.title}</p>
         <p className="accordion__subtitle">{props.subtitle} </p>
-        <Chevron className={`${setRotate}`} width={10} fill={"#777"} />
+        <Chevron className={`${setRotate}`} fill={"#777"} />
       </button>
       <div
         ref={content}
         style={{ maxHeight: `${setHeight}` }}
-        className="accordion__content"
+        className="accordion__content "
       >
         <div className="dates">
           {props.start}

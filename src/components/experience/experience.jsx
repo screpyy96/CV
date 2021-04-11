@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import GreenArrowDown from "../green-arrows/GreenArrowDown.component";
 import SectionTitle from "../section-title/sectionTitle.component";
 import YoutubeButton from "../youtube-button/YoutubeButton.component";
 import AccordionTop from "./AccordionTop";
@@ -24,6 +25,7 @@ const Experience = () => {
       <SectionTitle title={data.sectionTitle} />
       <YoutubeButton />
       <AccordionTop />
+      <GreenArrowDown />
     </>
   );
 };
