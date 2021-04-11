@@ -24,10 +24,11 @@ const AccordionTop = () => {
         return (
           <div key={i}>
             <Accordion
-              img={item.iconPath}
               title={item.jobTitle}
               subtitle={item.companyName}
               content={item.infoList}
+              start={item.startDate}
+              end={item.endDate}
             />
           </div>
         );

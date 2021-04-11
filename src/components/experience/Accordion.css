@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 
-/* Style the accordion section */
+.logo {
+  background: url(../../assets/image/argus.png);
+}
+
 .accordion__section {
   display: flex;
   flex-direction: column;
@@ -8,7 +11,6 @@
   /* border-radius: 6px; */
 }
 
-/* Style the buttons that are used to open and close the accordion panel */
 .accordion {
   background-color: white;
   /* color: #444; */
@@ -26,22 +28,30 @@
   background-color: white;
 }
 
-/* Style the accordion content title */
 .accordion__title {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 14px;
   text-align: left;
+  color: grey;
 }
 
 .accordion__subtitle {
-  font-family: "Open Sans", sans-serif;
-  font-weight: 600;
+  padding-top: 43px;
+  margin-left: -97px;
   font-size: 14px;
-  text-align: left;
+  color: grey;
 }
 
-/* Style the accordion chevron icon */
+.dates {
+  font-size: 14px;
+  padding-left: 20px;
+  font-family: italic;
+  border-top: 2px solid grey;
+  padding-top: 15px;
+  color: grey;
+}
+
 .accordion__icon {
   margin-left: auto;
   transition: transform 0.6s ease;
@@ -53,23 +63,21 @@
   transform: rotate(90deg);
 }
 
-/* Style to rotate icon when state is active */
-
 .rotate {
   transform: rotate(-90deg);
 }
 
-/* Style the accordion content  */
 .accordion__content {
   background-color: white;
   overflow: auto;
   transition: max-height 0.6s ease;
+  line-height: 20px;
 }
 
-/* Style the accordion text */
 .accordion__text {
   font-family: "Open Sans", sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 14px;
   padding: 18px;
+  color: grey;
 }

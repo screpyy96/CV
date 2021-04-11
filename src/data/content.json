@@ -248,40 +248,32 @@
     "jobList": [
       {
         "jobTitle": "Top Developer ",
-        "startDate": "February 2021",
-        "endDate": "present",
-        "iconPath": "../assets/image/argus.png",
-        "companyName": " BitBee Limited",
-        "infoList": [
-          "Building websites in a team to increase efficiency and to deliver better and faster products",
-          "Actively learning and applying HTML5, CSS3, JavaScript, ReactJS, and Redux",
-          "Use JavaScript or CSS3 to improve page speed load and user experience",
-          "Creating SPA and multi-page websites using the mobile first technique"
-        ]
-      },
-      {
-        "jobTitle": "Top Developer",
-        "startDate": "July 2018",
+        "startDate": "February 2021 - ",
         "endDate": "present",
         "iconPath": "argus.png",
-        "companyName": " MOVMIL LTD",
+        "companyName": "London Devs",
         "infoList": [
-          "Act within my powers as a company director",
-          "Promote the success of the company",
-          "Exercise independent judgement",
-          "Declare interest in proposed transaction or arrangement with the company"
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus."
         ]
       },
       {
         "jobTitle": "Top Developer",
-        "startDate": "November 2018",
+        "startDate": "July 2018 - ",
+        "endDate": "present",
+        "iconPath": "argus.png",
+        "companyName": "London Devs",
+        "infoList": [
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus."
+        ]
+      },
+      {
+        "jobTitle": "Top Developer",
+        "startDate": "November 2018 - ",
         "endDate": "June 2020",
         "iconPath": "argus.png",
-        "companyName": "Fego UK",
+        "companyName": "London Devs",
         "infoList": [
-          "Greet all customers with fast, friendly, personalised service and develops a rapport with customers",
-          "Coordinate and control all aspects of stock deliveries and keep accurate and up to date records",
-          "Maintain low wastage levels through good stock management"
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus."
         ]
       }
     ]

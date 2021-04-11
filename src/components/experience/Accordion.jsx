@@ -23,7 +23,6 @@ function Accordion(props) {
   return (
     <div className="accordion__section">
       <button className={`accordion ${setActive}`} onClick={toggleAccordion}>
-        <img src={`${props.img}`} alt="nu merge imaginea" />
         <p className="accordion__title">{props.title}</p>
         <p className="accordion__subtitle">{props.subtitle} </p>
         <Chevron className={`${setRotate}`} width={10} fill={"#777"} />
@@ -33,6 +32,10 @@ function Accordion(props) {
         style={{ maxHeight: `${setHeight}` }}
         className="accordion__content"
       >
+        <div className="dates">
+          {props.start}
+          {props.end}
+        </div>
         <div
           className="accordion__text"
           dangerouslySetInnerHTML={{ __html: props.content }}
