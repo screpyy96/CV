@@ -277,5 +277,150 @@
         ]
       }
     ]
+  },
+  "open-source": {
+    "sectionTitle": "Open Source",
+    "stats": {
+      "statsName": "Stats",
+      "stat": [
+        {
+          "statIcon": "github",
+          "statDescription": [
+            "Contributions last year: over 200",
+            "Longest streak: ---"
+          ]
+        },
+        {
+          "statIcon": "codewars",
+          "statDescription": ["Rank: ---", "Honor: ---"]
+        },
+        {
+          "statIcon": "stackoverflow",
+          "statDescription": [
+            "Top: ---",
+            "Reputation: ---",
+            "People reached: ---",
+            "Answers: ---"
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "projectName": "GitHub projects",
+      "project": [
+        {
+          "projectName": "My Cv V2 Junior",
+          "skillsGained": [
+            {
+              "skillName": "HTML",
+              "percentage": "25.4",
+              "color": "#F0E218"
+            },
+            {
+              "skillName": "JavaScript",
+              "percentage": "31.8",
+              "color": "#1875F0"
+            },
+            {
+              "skillName": "SCSS",
+              "percentage": "28.5",
+              "color": "#20D55D"
+            },
+            {
+              "skillName": "CSS",
+              "percentage": "5.2",
+              "color": "#D52027"
+            },
+            {
+              "skillName": "PUG",
+              "percentage": "9.1",
+              "color": "#AB1CF2"
+            }
+          ],
+          "projectStats": [
+            {
+              "projectStatIcon": "commits",
+              "projectStatInfo": "Commits: 70"
+            },
+            {
+              "projectStatIcon": "stars",
+              "projectStatInfo": "Stars: ---"
+            },
+            {
+              "projectStatIcon": "forks",
+              "projectStatInfo": "Forks: ---"
+            }
+          ],
+          "projectInfo": "My cv v2 Junior is a website developed in a team to increase efficiency and to deliver better and faster products; through it, I have actively learned and applied HTML5, CSS3, JavaScript, ReactJS, and Redux.",
+          "projectIcon": {
+            "mandatoryIcon": "info",
+            "extraIcon": [
+              {
+                "icon": "github",
+                "link": "https://github.com/RalucaRbc/my-cv-v2-junior"
+              },
+              {
+                "icon": "youtube",
+                "link": "https://www.youtube.com/watch?v=0VvTBwJQMoQ&t=15s"
+              }
+            ]
+          },
+          "projectLink": {
+            "icon": "github",
+            "description": "RalucaRbc/my-cv-v2-junior",
+            "link": "https://github.com/RalucaRbc/my-cv-v2-junior"
+          }
+        },
+        {
+          "projectName": "My Cv V2 Starter",
+          "skillsGained": [
+            {
+              "skillName": "HTML",
+              "percentage": "69.2",
+              "color": "#F0E218"
+            },
+            {
+              "skillName": "JavaScript",
+              "percentage": "2.6",
+              "color": "#1875F0"
+            },
+            {
+              "skillName": "CSS",
+              "percentage": "28.2",
+              "color": "#D52027"
+            }
+          ],
+          "projectStats": [
+            {
+              "projectStatIcon": "commits",
+              "projectStatInfo": "Commits: 30"
+            },
+            {
+              "projectStatIcon": "stars",
+              "projectStatInfo": "Stars: ---"
+            },
+            {
+              "projectStatIcon": "forks",
+              "projectStatInfo": "Forks: ---"
+            }
+          ],
+          "projectInfo": "My cv v2 Starter is a simple website developed to increase efficiency and to deliver better and faster products; through it, I have actively learned and applied HTML5, CSS3, JavaScript, ReactJS, and Redux.",
+          "projectIcon": {
+            "mandatoryIcon": "info",
+            "extraIcon": [
+              {
+                "icon": "github",
+                "link": "https://github.com/RalucaRbc/my-cv-v2-starter"
+              }
+            ]
+          },
+          "projectLink": {
+            "icon": "github",
+            "description": "RalucaRbc/my-cv-v2-starter",
+            "link": "https://github.com/RalucaRbc/my-cv-v2-starter"
+          }
+        }
+      ]
+    }
   }
 }

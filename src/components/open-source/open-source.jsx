@@ -1,17 +1,14 @@
 import React, { useState, useEffect } from "react";
-import GreenArrowDown from "../green-arrows/GreenArrowDown.component";
 import SectionTitle from "../section-title/sectionTitle.component";
 import YoutubeButton from "../youtube-button/YoutubeButton.component";
-import AccordionTop from "./AccordionTop";
-import { AccordionBorder } from "./accordion.styled";
-const Experience = () => {
+const OpenSource = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/experience")
+          await fetch("http://localhost:5000/open-source")
         ).json();
         setData(result);
       };
@@ -20,16 +17,13 @@ const Experience = () => {
       console.log("nu merge useEffect", error);
     }
   }, []);
+
   return (
-    <>
+    <div>
       <SectionTitle title={data.sectionTitle} />
       <YoutubeButton />
-      <AccordionBorder>
-        <AccordionTop />
-      </AccordionBorder>
-      <GreenArrowDown />
-    </>
+    </div>
   );
 };
 
-export default Experience;
+export default OpenSource;

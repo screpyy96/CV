@@ -1,18 +1,20 @@
 import styled from "styled-components";
 
+export const AccordionBorder = styled.div`
+  border: 2px solid grey;
+`;
+export const AccordionBorder1 = styled.div`
+  &:not(last-child) {
+    border-bottom: 2px solid grey;
+  }
+  &:last-child {
+    border: 0;
+  }
+`;
+
 export const AccordionWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  border-left: 2px solid grey;
-  border-right: 2px solid grey;
-  border-bottom: 2px solid grey;
-  &:first-child {
-    border-top: 2px solid grey;
-  }
-
-  &:last-child {
-    border-bottom: 2px solid grey;
-  }
 `;
 
 export const AccordionText = styled.div`
@@ -94,7 +96,7 @@ export const Dates = styled.div`
   font-size: 14px;
   padding-left: 20px;
   font-style: italic;
-  /* border-top: 2px solid grey; */
+  border-top: 2px solid grey;
   padding-top: 15px;
   color: grey;
 `;

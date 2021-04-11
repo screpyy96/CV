@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Accordion from "./Accordion";
-import "./Accordion.css";
+import { AccordionBorder1 } from "./accordion.styled";
 
 const AccordionTop = () => {
   const [data, setData] = useState({});
@@ -22,9 +22,9 @@ const AccordionTop = () => {
     <div>
       {data?.jobList?.map((item, i) => {
         return (
-          <div key={i}>
+          <AccordionBorder1 key={i}>
             <Accordion item={item} />
-          </div>
+          </AccordionBorder1>
         );
       })}
     </div>
