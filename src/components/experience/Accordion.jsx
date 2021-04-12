@@ -39,7 +39,7 @@ const Accordion = ({ item }) => {
             <AccordionTitle>{item.companyName}</AccordionTitle>
             <AccordionSubTitle>{item.jobTitle}</AccordionSubTitle>
           </div>
-          <Chevron isExpanded={isExpanded} fill={"#777"} />
+          <Chevron isExpanded={isExpanded} />
         </AccordionButton>
       </div>
 

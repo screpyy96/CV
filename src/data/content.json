@@ -292,15 +292,15 @@
         },
         {
           "statIcon": "codewars",
-          "statDescription": ["Rank: ---", "Honor: ---"]
+          "statDescription": ["Rank: 6, ", "Honor: 300"]
         },
         {
           "statIcon": "stackoverflow",
           "statDescription": [
-            "Top: ---",
-            "Reputation: ---",
-            "People reached: ---",
-            "Answers: ---"
+            "Top: 5%",
+            "Reputation: 30.000",
+            "People reached: 10.000",
+            "Answers: 300"
           ]
         }
       ]
@@ -313,28 +313,23 @@
           "skillsGained": [
             {
               "skillName": "HTML",
-              "percentage": "25.4",
+              "percentage": "25.4%",
               "color": "#F0E218"
             },
             {
               "skillName": "JavaScript",
-              "percentage": "31.8",
+              "percentage": "31.8%",
               "color": "#1875F0"
             },
             {
               "skillName": "SCSS",
-              "percentage": "28.5",
+              "percentage": "28.5%",
               "color": "#20D55D"
             },
             {
               "skillName": "CSS",
-              "percentage": "5.2",
+              "percentage": "5.2%",
               "color": "#D52027"
-            },
-            {
-              "skillName": "PUG",
-              "percentage": "9.1",
-              "color": "#AB1CF2"
             }
           ],
           "projectStats": [
@@ -351,24 +346,24 @@
               "projectStatInfo": "Forks: ---"
             }
           ],
-          "projectInfo": "My cv v2 Junior is a website developed in a team to increase efficiency and to deliver better and faster products; through it, I have actively learned and applied HTML5, CSS3, JavaScript, ReactJS, and Redux.",
+          "projectInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus.",
           "projectIcon": {
             "mandatoryIcon": "info",
             "extraIcon": [
               {
                 "icon": "github",
-                "link": "https://github.com/RalucaRbc/my-cv-v2-junior"
+                "link": "https://github.com/screpyy96/my-cv-v2-junior"
               },
               {
                 "icon": "youtube",
-                "link": "https://www.youtube.com/watch?v=0VvTBwJQMoQ&t=15s"
+                "link": "https://www.youtube.com/"
               }
             ]
           },
           "projectLink": {
             "icon": "github",
-            "description": "RalucaRbc/my-cv-v2-junior",
-            "link": "https://github.com/RalucaRbc/my-cv-v2-junior"
+            "description": "screpyy96/my-cv-v2-junior",
+            "link": "https://github.com/screpyy96/my-cv-v2-junior"
           }
         },
         {
@@ -376,17 +371,23 @@
           "skillsGained": [
             {
               "skillName": "HTML",
-              "percentage": "69.2",
+              "percentage": "69.2%",
               "color": "#F0E218"
             },
             {
               "skillName": "JavaScript",
-              "percentage": "2.6",
+              "percentage": "2.6%",
               "color": "#1875F0"
             },
             {
+              "skillName": "SCSS",
+              "percentage": "28.2%",
+              "color": "#D52027"
+            },
+
+            {
               "skillName": "CSS",
-              "percentage": "28.2",
+              "percentage": "28.2%",
               "color": "#D52027"
             }
           ],
@@ -404,20 +405,24 @@
               "projectStatInfo": "Forks: ---"
             }
           ],
-          "projectInfo": "My cv v2 Starter is a simple website developed to increase efficiency and to deliver better and faster products; through it, I have actively learned and applied HTML5, CSS3, JavaScript, ReactJS, and Redux.",
+          "projectInfo": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos mollitia exercitationem rerum animi saepe corrupti tenetur temporibus cum, libero qui dolores unde impedit aperiam reprehenderit veritatis culpa autem ea doloribus.",
           "projectIcon": {
             "mandatoryIcon": "info",
             "extraIcon": [
               {
                 "icon": "github",
-                "link": "https://github.com/RalucaRbc/my-cv-v2-starter"
+                "link": "https://github.com/screpyy96/my-cv-v2-starter"
+              },
+              {
+                "icon": "youtube",
+                "link": "https://www.youtube.com/"
               }
             ]
           },
           "projectLink": {
             "icon": "github",
-            "description": "RalucaRbc/my-cv-v2-starter",
-            "link": "https://github.com/RalucaRbc/my-cv-v2-starter"
+            "description": "screpyy96/my-cv-v2-starter",
+            "link": "https://github.com/screpyy96/my-cv-v2-starter"
           }
         }
       ]

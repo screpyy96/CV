@@ -90,6 +90,7 @@ export const AccordionSubTitle = styled.p`
   text-align: left;
   color: grey;
   padding-left: 20px;
+  padding-top: 10px;
 `;
 
 export const Dates = styled.div`

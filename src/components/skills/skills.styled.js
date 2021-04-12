@@ -13,7 +13,8 @@ export const BoxWrapper = styled.div`
   border: 2px solid grey;
   border-radius: 6px;
   width: 100%;
-  margin: 0 auto;
+  margin: 30px auto;
+  padding: 10px 10;
 `;
 export const ItemWrapper = styled.div`
   padding: 10px;

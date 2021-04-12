@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from "react";
 import SectionTitle from "../section-title/sectionTitle.component";
 import YoutubeButton from "../youtube-button/YoutubeButton.component";
+import StatsSection from "./StatsSection";
+import AccordionSection from "./AccordionSection";
+
 const OpenSource = () => {
   const [data, setData] = useState({});
 
@@ -22,6 +25,8 @@ const OpenSource = () => {
     <div>
       <SectionTitle title={data.sectionTitle} />
       <YoutubeButton />
+      <StatsSection />
+      <AccordionSection />
     </div>
   );
 };
