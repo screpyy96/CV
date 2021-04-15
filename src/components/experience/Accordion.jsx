@@ -20,14 +20,6 @@ const Accordion = ({ item }) => {
   };
   const trimIconPath = (str) => {
     const strArr = str.split("/");
-    // sanitizare
-    // console.log(strArr);
-    // const lastArr = strArr[strArr.length - 1];
-    // console.log(lastArr);
-    // const splitExtension = lastArr.split(".");
-    // console.log(splitExtension);
-    // const myImage = splitExtension[0];
-    // console.log(myImage);
     return strArr[strArr.length - 1].split(".")[0];
   };
   return (

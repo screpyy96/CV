@@ -1,10 +1,9 @@
 import React, { useState, useEffect } from "react";
-import SectionTitle from "../section-title/sectionTitle.component";
-import YoutubeButton from "../youtube-button/YoutubeButton.component";
-import StatsSection from "./stats/StatsSection";
-import AccordionSection from "./accordion/AccordionSection";
 
-const OpenSource = () => {
+import ProjectsEntry from "../ProjectsEntry";
+import { LeadTitle } from "../open-source.styled";
+
+const AccordionSection = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
@@ -23,12 +22,16 @@ const OpenSource = () => {
 
   return (
     <div>
-      <SectionTitle title={data.sectionTitle} />
-      <YoutubeButton />
-      <StatsSection />
-      <AccordionSection />
+      <LeadTitle>{data?.projects?.projectName}</LeadTitle>
+      {data?.projects?.project.map((item) => {
+        return (
+          <>
+            <ProjectsEntry project={item} />
+          </>
+        );
+      })}
     </div>
   );
 };
 
-export default OpenSource;
+export default AccordionSection;

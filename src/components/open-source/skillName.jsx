@@ -20,7 +20,6 @@ const SkillName = () => {
   return (
     <>
       {data?.projects?.project.map((skill) => {
-        console.log(skill);
         return (
           <div>
             {skill?.skillsGained.map((item) => {
