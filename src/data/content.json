@@ -313,22 +313,22 @@
           "skillsGained": [
             {
               "skillName": "HTML",
-              "percentage": "25.4%",
+              "percentage": "25%",
               "color": "#F0E218"
             },
             {
               "skillName": "JavaScript",
-              "percentage": "31.8%",
+              "percentage": "25%",
               "color": "#1875F0"
             },
             {
               "skillName": "SCSS",
-              "percentage": "28.5%",
+              "percentage": "25%",
               "color": "#20D55D"
             },
             {
               "skillName": "CSS",
-              "percentage": "5.2%",
+              "percentage": "25%",
               "color": "#D52027"
             }
           ],
@@ -371,24 +371,24 @@
           "skillsGained": [
             {
               "skillName": "HTML",
-              "percentage": "69.2%",
+              "percentage": "25%",
               "color": "#F0E218"
             },
             {
               "skillName": "JavaScript",
-              "percentage": "2.6%",
+              "percentage": "25%",
               "color": "#1875F0"
             },
             {
               "skillName": "SCSS",
-              "percentage": "28.2%",
+              "percentage": "25%",
               "color": "#D52027"
             },
 
             {
               "skillName": "CSS",
-              "percentage": "28.2%",
-              "color": "#D52027"
+              "percentage": "25%",
+              "color": "#20D55D"
             }
           ],
           "projectStats": [

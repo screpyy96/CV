@@ -65,18 +65,11 @@ export const LeadTitle = styled.div`
 
 //progressive bar
 
-export const containerStyles = styled.div`
-  height: 20;
-  width: "100%";
-  background-color: "#e0e0de";
-  border-radius: 50%;
-  margin: 50px;
+export const Bara = styled.div`
+  height: 10px;
+  display: flex;
 `;
-
-export const fillerStyles = styled.div`
-  height: 100%;
-  width: ${({ completed }) => color[html]};
-  background-color: bgcolor;
-  border-radius: inherit;
-  text-align: right;
+export const BaraProgress = styled.span`
+  width: ${(props) => `${props.percentage}`};
+  background-color: ${(props) => props.color};
 `;
