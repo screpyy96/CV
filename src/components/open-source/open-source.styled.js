@@ -22,25 +22,24 @@ export const AccordionContent = styled.div`
   height: ${({ isOpen }) => (isOpen ? "auto" : "0px")};
 `;
 
-export const ProjectStats = styled.div`
-  border: 2px solid grey;
-`;
-
 export const ButtonExpand = styled.div`
-  border-radius: 50%;
-  border: 4px solid grey;
-  height: 20px;
-  width: 20px;
-  background-color: black;
-  float: right;
+  cursor: pointer;
+  background-color: #ff006d;
+  height: 40px;
+  width: 40px;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2px;
 `;
 
 export const BoxWrapper = styled.div`
   border: 2px solid grey;
   border-radius: 6px;
-  width: 100%;
-  margin: 30px auto;
-  padding: 10px 10;
+  padding: 10px;
 `;
 
 export const ItemWrapper = styled.div`
@@ -50,10 +49,12 @@ export const ItemWrapper = styled.div`
   font-weight: 700;
   color: grey;
   grid-template-columns: 30px 215px 50px;
+
   &:last-child {
     border: 0;
   }
 `;
+
 export const LeadTitle = styled.div`
   font-size: 22px;
   line-height: 30px;
@@ -72,4 +73,28 @@ export const Bara = styled.div`
 export const BaraProgress = styled.span`
   width: ${(props) => `${props.percentage}`};
   background-color: ${(props) => props.color};
+`;
+
+export const SkillsStyling = styled.div`
+  &::before {
+    content: "";
+    margin: 10px;
+  }
+  background-color: ${(props) => props.color};
+  border-radius: 50%;
+  height: 10px;
+  width: 10px;
+  margin: 10px;
+`;
+
+export const ProgrammingSkills = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 10px;
+  border: 2px solid grey;
+`;
+
+export const ProjectStats = styled.div`
+  border: 2px solid grey;
+  padding: 10px;
 `;
