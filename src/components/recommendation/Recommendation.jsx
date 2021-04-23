@@ -1,18 +1,15 @@
 import React, { useState, useEffect } from "react";
 import SectionTitle from "../section-title/sectionTitle.component";
 import YoutubeButton from "../youtube-button/YoutubeButton.component";
-import StatsSection from "./stats/StatsSection";
-import AccordionSection from "./accordion/AccordionSection";
-import GreenArrowDown from "../green-arrows/GreenArrowDown.component";
-
-const OpenSource = () => {
+import Card from "./card/Card";
+const Recommendation = () => {
   const [data, setData] = useState({});
 
   useEffect(() => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/open-source")
+          await fetch("http://localhost:5000/recommendations")
         ).json();
         setData(result);
       };
@@ -23,14 +20,12 @@ const OpenSource = () => {
   }, []);
 
   return (
-    <div>
-      <SectionTitle title={data.sectionTitle} />
+    <>
+      <SectionTitle title={data?.sectionTitle} />
       <YoutubeButton />
-      <StatsSection />
-      <AccordionSection />
-      <GreenArrowDown />
-    </div>
+      <Card />
+    </>
   );
 };
 
-export default OpenSource;
+export default Recommendation;

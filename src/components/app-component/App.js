@@ -5,6 +5,8 @@ import Connect from "../connect/Connect.component";
 import Experience from "../experience/experience";
 import Skills from "../skills/skills.component";
 import OpenSource from "../open-source/open-source";
+import Portfolio from "../portfolio/Portfolio";
+import Recommendation from "../recommendation/Recommendation";
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Skills />
       <Experience />
       <OpenSource />
+      <Portfolio />
+      <Recommendation />
     </SA.GridWrapper>
   );
 }

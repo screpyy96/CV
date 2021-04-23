@@ -426,5 +426,75 @@
         }
       ]
     }
+  },
+  "portfolio": {
+    "sectionTitle": "Portfolio",
+    "header": "Recent",
+    "card1": [
+      {
+        "title": "CodeTap Academy",
+        "skills": "HTML, CSS, Git, JavaScript, CEO, React",
+        "link": "https://github.com/screpyy96",
+        "image": "assets/images/argus.png",
+        "linkIcon": "https://youtube.com",
+        "icon1": "github",
+        "icon2": "youtube"
+      },
+      {
+        "title": "CodeTap Academy",
+        "skills": "HTML, CSS, Git, JavaScript, CEO, React",
+        "link": "https://github.com/screpyy96",
+        "image": "assets/images/argus.png",
+        "linkIcon": "https://youtube.com",
+        "icon1": "github",
+        "icon2": "youtube"
+      }
+    ],
+    "card2": {
+      "titleOld": "Old",
+      "data": [
+        {
+          "title": "CodeTap Academy",
+          "skills": "HTML, CSS, Git, JavaScript, CEO, React",
+          "link": "https://codetap.academy",
+          "image": "assets/images/argus.png",
+          "linkIcon": "https://codetap.academy",
+          "icon1": "github",
+          "icon2": "youtube"
+        },
+        {
+          "title": "CodeTap Academy",
+          "skills": "HTML, CSS, Git, JavaScript, CEO, React",
+          "link": "https://codetap.academy",
+          "image": "assets/images/argus.png",
+          "linkIcon": "https://codetap.academy",
+          "icon1": "github",
+          "icon2": "youtube"
+        }
+      ]
+    }
+  },
+  "recommendations": {
+    "sectionTitle": "Recommendations",
+    "recommendations1": [
+      {
+        "avatarUrl": "assets/images/argus.png",
+        "name": "Random Name",
+        "position": "Developer",
+        "description": [
+          "ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto."
+        ]
+      }
+    ],
+    "recommendations2": [
+      {
+        "avatarUrl": "assets/images/argus.png",
+        "name": "ipsum",
+        "position": "ipsum",
+        "description": [
+          "ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto."
+        ]
+      }
+    ]
   }
 }
