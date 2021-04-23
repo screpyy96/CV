@@ -22,7 +22,7 @@ export const AccordionContent = styled.div`
   height: ${({ isOpen }) => (isOpen ? "auto" : "0px")};
 `;
 
-export const ButtonExpand = styled.div`
+export const ButtonExpand = styled.a`
   cursor: pointer;
   background-color: #ff006d;
   height: 40px;
@@ -38,8 +38,8 @@ export const ButtonExpand = styled.div`
 
 export const BoxWrapper = styled.div`
   border: 2px solid grey;
-  border-radius: 6px;
   padding: 10px;
+  border-bottom: 0;
 `;
 
 export const ItemWrapper = styled.div`
@@ -76,15 +76,17 @@ export const BaraProgress = styled.span`
 `;
 
 export const SkillsStyling = styled.div`
-  &::before {
-    content: "";
-    margin: 10px;
-  }
   background-color: ${(props) => props.color};
   border-radius: 50%;
   height: 10px;
   width: 10px;
   margin: 10px;
+  &::before {
+    content: "";
+    margin: 10px;
+    width: 10px;
+    background-color: red;
+  }
 `;
 
 export const ProgrammingSkills = styled.div`
@@ -92,9 +94,35 @@ export const ProgrammingSkills = styled.div`
   grid-template-columns: repeat(2, 1fr);
   padding: 10px;
   border: 2px solid grey;
+  border-bottom: 0;
 `;
 
 export const ProjectStats = styled.div`
   border: 2px solid grey;
-  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 15px;
+  line-height: 2;
+  border-bottom: 0;
+`;
+
+export const ButtonBlue = styled.a`
+  height: 40px;
+  border-radius: 20px;
+  font-size: 10px;
+  background-color: #1875f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 0;
+  font-weight: 900;
+  padding: 20px;
+`;
+
+export const Buttons = styled.div`
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 10px;
 `;

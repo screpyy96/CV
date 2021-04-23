@@ -312,24 +312,24 @@
           "projectName": "My Cv V2 Junior",
           "skillsGained": [
             {
-              "skillName": "HTML",
-              "percentage": "25%",
-              "color": "#F0E218"
-            },
-            {
               "skillName": "JavaScript",
-              "percentage": "25%",
+              "percentage": "90%",
               "color": "#1875F0"
             },
             {
-              "skillName": "SCSS",
-              "percentage": "25%",
+              "skillName": "CSS",
+              "percentage": "3%",
+              "color": "#D52027"
+            },
+            {
+              "skillName": "TypeScript",
+              "percentage": "5%",
               "color": "#20D55D"
             },
             {
-              "skillName": "CSS",
-              "percentage": "25%",
-              "color": "#D52027"
+              "skillName": "HTML",
+              "percentage": "2%",
+              "color": "#F0E218"
             }
           ],
           "projectStats": [
@@ -351,12 +351,12 @@
             "mandatoryIcon": "info",
             "extraIcon": [
               {
-                "icon": "github",
-                "link": "https://github.com/screpyy96/my-cv-v2-junior"
-              },
-              {
                 "icon": "youtube",
                 "link": "https://www.youtube.com/"
+              },
+              {
+                "icon": "github",
+                "link": "https://github.com/screpyy96/my-cv-v2-junior"
               }
             ]
           },
@@ -370,25 +370,24 @@
           "projectName": "My Cv V2 Starter",
           "skillsGained": [
             {
-              "skillName": "HTML",
-              "percentage": "25%",
-              "color": "#F0E218"
-            },
-            {
               "skillName": "JavaScript",
-              "percentage": "25%",
+              "percentage": "90%",
               "color": "#1875F0"
             },
             {
-              "skillName": "SCSS",
-              "percentage": "25%",
+              "skillName": "CSS",
+              "percentage": "3%",
               "color": "#D52027"
             },
-
             {
-              "skillName": "CSS",
-              "percentage": "25%",
+              "skillName": "TypeScript",
+              "percentage": "5%",
               "color": "#20D55D"
+            },
+            {
+              "skillName": "HTML",
+              "percentage": "2%",
+              "color": "#F0E218"
             }
           ],
           "projectStats": [
@@ -410,12 +409,12 @@
             "mandatoryIcon": "info",
             "extraIcon": [
               {
-                "icon": "github",
-                "link": "https://github.com/screpyy96/my-cv-v2-starter"
-              },
-              {
                 "icon": "youtube",
                 "link": "https://www.youtube.com/"
+              },
+              {
+                "icon": "github",
+                "link": "https://github.com/screpyy96/my-cv-v2-starter"
               }
             ]
           },
