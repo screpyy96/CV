@@ -1,4 +1,5 @@
 {
+  "homepage": "http://screpyy96.github.io/react-cv",
   "name": "react-cv",
   "version": "0.1.0",
   "private": true,
@@ -16,7 +17,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sjs": "json-server --watch --port=5000 src/data/content.json"
+    "sjs": "json-server --watch --port=5000 src/data/content.json",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -35,5 +38,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
   }
 }
