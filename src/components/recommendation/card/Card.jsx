@@ -33,17 +33,31 @@ const Card = () => {
   return (
     <div>
       {data?.recommendations1?.map((i) => {
-        console.log(i);
         return (
-          <CardWrapper>
-            <RecommendationImage>
-              <Avatar image={images[trimIconPath(i.avatarUrl)]}></Avatar>{" "}
+          <div>
+            <CardWrapper>
+              <RecommendationImage>
+                <Avatar image={images[trimIconPath(i.avatarUrl)]} />
+              </RecommendationImage>
               <Name>{i.name}</Name>
               <Position>{i.position}</Position>
-            </RecommendationImage>
-
+            </CardWrapper>
             <Description>{i.description}</Description>
-          </CardWrapper>
+          </div>
+        );
+      })}
+      {data?.recommendations2?.map((i) => {
+        return (
+          <div>
+            <CardWrapper>
+              <RecommendationImage>
+                <Avatar image={images[trimIconPath(i.avatarUrl)]} />
+              </RecommendationImage>
+              <Name>{i.name}</Name>
+              <Position>{i.position}</Position>
+            </CardWrapper>
+            <Description>{i.description}</Description>
+          </div>
         );
       })}
     </div>

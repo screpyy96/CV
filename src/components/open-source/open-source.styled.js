@@ -40,6 +40,7 @@ export const BoxWrapper = styled.div`
   border: 2px solid grey;
   padding: 10px;
   border-bottom: 0;
+  background: #ffffff;
 `;
 
 export const ItemWrapper = styled.div`
@@ -125,4 +126,5 @@ export const Buttons = styled.div`
   display: flex;
   justify-content: flex-end;
   margin-bottom: 10px;
+  padding-right: 10px;
 `;

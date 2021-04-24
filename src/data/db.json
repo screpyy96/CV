@@ -478,9 +478,9 @@
     "sectionTitle": "Recommendations",
     "recommendations1": [
       {
-        "avatarUrl": "assets/images/argus.png",
+        "avatarUrl": "assets/images/me.jpg",
         "name": "Random Name",
-        "position": "Developer",
+        "position": "Front End Developer",
         "description": [
           "ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto."
         ]
@@ -489,11 +489,34 @@
     "recommendations2": [
       {
         "avatarUrl": "assets/images/argus.png",
-        "name": "ipsum",
-        "position": "ipsum",
+        "name": "Random Developer",
+        "position": "React Developer",
         "description": [
           "ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto."
         ]
+      }
+    ]
+  },
+  "reviews": {
+    "sectionTitle": "Reviews",
+    "cards": [
+      {
+        "avatarUrl": "asset/image/argus.png",
+        "date": "10.10.2020",
+        "name": "ipsum",
+        "description": "ipsum dolor sit amet consect voluptate impedit commodi iusto."
+      },
+      {
+        "avatarUrl": "asset/image/argus.png",
+        "date": "10.10.2020",
+        "name": "ipsum",
+        "description": "ipsum dolor sit amet consect voluptate impedit commodi iusto."
+      },
+      {
+        "avatarUrl": "asset/image/argus.png",
+        "date": "10.10.2020",
+        "name": "ipsum",
+        "description": "ipsum dolor sit amet consect voluptate impedit commodi iusto."
       }
     ]
   }

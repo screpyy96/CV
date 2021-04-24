@@ -15,6 +15,7 @@ export const BoxWrapper = styled.div`
   width: 100%;
   margin: 30px auto;
   padding: 10px 10;
+  background: #ffffff;
 `;
 export const ItemWrapper = styled.div`
   padding: 10px;

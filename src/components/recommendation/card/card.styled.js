@@ -40,7 +40,7 @@ export const Avatar = styled.div`
 export const CardWrapper = styled.div`
   display: grid;
   grid-template-columns: 64px auto;
-  column-gap: 10px;
+  column-gap: 20px;
   grid-template-rows: 32px 32px;
   margin-bottom: 15px;
 `;
@@ -52,20 +52,20 @@ export const RecommendationImage = styled.div`
   border-radius: 50%;
 `;
 export const Name = styled.div`
-  grid-column: -1/3;
+  grid-column: 2/2;
   display: flex;
   align-items: center;
   grid-row: 1/2;
-  font-weight: 500;
-  font-size: 22px;
+  font-weight: 600;
+  font-size: 20px;
   color: #808080;
 `;
 export const Position = styled.div`
-  grid-row: 2/3;
-  grid-column: 2/3;
+  grid-row: 2/2;
+  grid-column: 2/2;
   display: flex;
   align-items: center;
-  font-weight: 500;
-  font-size: 12px;
+  font-weight: 600;
+  font-size: 15px;
   color: #808080;
 `;

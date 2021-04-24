@@ -3,15 +3,15 @@ import styled from "styled-components";
 export const CardWrapper = styled.div`
   border: 2px solid grey;
   padding: 10px;
+  border-radius: 6px;
+  background: #ffffff;
 `;
 
 export const Logo = styled.div`
   background: url(${({ image }) => (image ? image : "")});
-  height: 60px;
+  height: 80px;
   width: 100%;
-  border-radius: 50%;
   background-size: cover;
-  background-repeat: repeat-y;
 `;
 
 export const Title = styled.div`

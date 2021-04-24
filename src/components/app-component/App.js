@@ -7,6 +7,7 @@ import Skills from "../skills/skills.component";
 import OpenSource from "../open-source/open-source";
 import Portfolio from "../portfolio/Portfolio";
 import Recommendation from "../recommendation/Recommendation";
+import Reviews from "../reviews/Reviews";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <OpenSource />
       <Portfolio />
       <Recommendation />
+      <Reviews />
     </SA.GridWrapper>
   );
 }
