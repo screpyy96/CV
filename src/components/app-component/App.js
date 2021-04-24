@@ -8,6 +8,7 @@ import OpenSource from "../open-source/open-source";
 import Portfolio from "../portfolio/Portfolio";
 import Recommendation from "../recommendation/Recommendation";
 import Reviews from "../reviews/Reviews";
+import Proud from "../proud/Proud";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Portfolio />
       <Recommendation />
       <Reviews />
+      <Proud />
     </SA.GridWrapper>
   );
 }

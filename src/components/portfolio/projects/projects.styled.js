@@ -7,6 +7,14 @@ export const CardWrapper = styled.div`
   background: #ffffff;
 `;
 
+export const CardWrapperOld = styled.div`
+  border: 2px solid grey;
+  padding: 10px;
+  border-radius: 6px;
+  background: #ffffff;
+  margin-bottom: 10px;
+`;
+
 export const Logo = styled.div`
   background: url(${({ image }) => (image ? image : "")});
   height: 80px;
@@ -17,13 +25,14 @@ export const Logo = styled.div`
 export const Title = styled.div`
   font-size: 15px;
   line-height: 30px;
-  font-weight: 600;
+  font-weight: 700;
   color: #808080;
   padding-bottom: 10px;
 `;
 export const Content = styled.div`
   font-size: 13px;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   font-weight: 600;
   color: #808080;
+  font-style: italic;
 `;

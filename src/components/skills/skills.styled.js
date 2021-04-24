@@ -13,7 +13,6 @@ export const BoxWrapper = styled.div`
   border: 2px solid grey;
   border-radius: 6px;
   width: 100%;
-  margin: 30px auto;
   padding: 10px 10;
   background: #ffffff;
 `;

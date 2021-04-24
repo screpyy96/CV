@@ -1,7 +1,7 @@
 import React from "react";
 
 const ProgressBar = (props) => {
-  const { color, completed, skillName } = props;
+  const { completed } = props;
   return (
     <div>
       <div>

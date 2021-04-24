@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react";
 import { LeadTitle } from "../../skills/skills.styled";
-import { CardWrapper, Logo, Title, Content } from "./projects.styled";
+import {
+  CardWrapper,
+  CardWrapperOld,
+  Logo,
+  Title,
+  Content,
+} from "./projects.styled";
 import { Buttons, ButtonExpand } from "../../open-source/open-source.styled";
 import { images } from "../../../constants/images";
 import Icon from "../../icomoon/IcoMoon.component";
@@ -54,20 +60,20 @@ const Projects = () => {
       {data?.card2?.data.map((j) => {
         return (
           <div>
-            <CardWrapper>
+            <CardWrapperOld>
               <Title>{j.title}</Title>
               <Content>{j.skills}</Content>
               <Content>{j.link}</Content>
               <Logo image={images[trimIconPath(j.image)]} />
-            </CardWrapper>
-            <Buttons>
+            </CardWrapperOld>
+            {/* <Buttons>
               <ButtonExpand href={j.link} target="_blank">
                 <Icon icon={j.icon1} color="white" size="20" />
               </ButtonExpand>
               <ButtonExpand href={j.linkIcon} target="_blank">
                 <Icon icon={j.icon2} color="white" size="20" />
               </ButtonExpand>
-            </Buttons>
+            </Buttons> */}
           </div>
         );
       })}

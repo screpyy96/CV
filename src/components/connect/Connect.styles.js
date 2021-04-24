@@ -18,9 +18,8 @@ export const AvatarImage = styled.img.attrs({ src: `${myImage}` })`
   position: relative;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.25);
   border-radius: 8px;
-  // transform: rotate(-2.5deg);
+  transform: rotate(-2.5deg);
   padding: 10px;
-  margin-left: 10px;
 
   &:after {
     content: "";
@@ -37,9 +36,8 @@ export const AvatarImage = styled.img.attrs({ src: `${myImage}` })`
 export const GridWrapper = styled.div`
   display: grid;
   grid-gap: 10px;
-  /* grid-template-columns: 100px 100px 100px 100px; */
   grid-template-columns: repeat(4, 1fr);
-  padding-left: 20px;
+  padding-top: 20px;
 `;
 
 export const StyledImage = styled.div`

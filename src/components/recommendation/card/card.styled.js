@@ -46,7 +46,7 @@ export const CardWrapper = styled.div`
 `;
 export const RecommendationImage = styled.div`
   grid-column: 1/2;
-  grid-row: 1/3;
+  grid-row: -1/1;
   position: relative;
   box-shadow: 0 0px 6px rgba(0, 0, 0, 0.16);
   border-radius: 50%;
@@ -56,15 +56,15 @@ export const Name = styled.div`
   display: flex;
   align-items: center;
   grid-row: 1/2;
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: medium;
+  font-size: 22px;
   color: #808080;
 `;
 export const Position = styled.div`
   grid-row: 2/2;
   grid-column: 2/2;
-  display: flex;
-  align-items: center;
+  /* display: flex;
+  align-items: center; */
   font-weight: 600;
   font-size: 15px;
   color: #808080;

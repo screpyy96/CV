@@ -501,22 +501,44 @@
     "sectionTitle": "Reviews",
     "cards": [
       {
-        "avatarUrl": "asset/image/argus.png",
-        "date": "10.10.2020",
-        "name": "ipsum",
+        "avatarUrl": "assets/images/me.png",
+        "date": "August 10 at 4:44",
+        "name": "Random Name",
         "description": "ipsum dolor sit amet consect voluptate impedit commodi iusto."
       },
       {
-        "avatarUrl": "asset/image/argus.png",
-        "date": "10.10.2020",
-        "name": "ipsum",
+        "avatarUrl": "assets/images/me.png",
+        "date": "August 10th at 4:44",
+        "name": "Random Name",
         "description": "ipsum dolor sit amet consect voluptate impedit commodi iusto."
       },
       {
-        "avatarUrl": "asset/image/argus.png",
-        "date": "10.10.2020",
-        "name": "ipsum",
+        "avatarUrl": "assets/images/me.png",
+        "date": "August 10th at 4:44",
+        "name": "Random Name",
         "description": "ipsum dolor sit amet consect voluptate impedit commodi iusto."
+      }
+    ]
+  },
+  "proud": {
+    "sectionTitle": "I'm Proud",
+    "subTitle": "Awards and Achievements",
+    "description": [
+      {
+        "date": "2017-2019",
+        "content": "ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto."
+      },
+      {
+        "date": "2017-2019",
+        "content": "ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto."
+      },
+      {
+        "date": "2017-2019",
+        "content": "ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto."
+      },
+      {
+        "date": "2017-2019",
+        "content": "ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto."
       }
     ]
   }
