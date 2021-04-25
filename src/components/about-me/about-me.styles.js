@@ -4,7 +4,7 @@ export const MainTitle = styled.div`
   font-weight: 600;
   color: #707070;
   text-align: center;
-  font-size: 60px;
+  font-size: 48px;
 `;
 
 export const SubTitle = styled.div`
@@ -13,7 +13,6 @@ export const SubTitle = styled.div`
   text-align: center;
   font-size: 36px;
   line-height: 48px;
-  padding-top: 20px;
 `;
 
 export const LeadTitle = styled.div`

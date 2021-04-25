@@ -21,7 +21,7 @@ const Portfolio = () => {
   }, []);
   return (
     <div>
-      <SectionTitle title={data.sectionTitle} />
+      <SectionTitle title={data.sectionTitle} id="portfolio" />
       <YoutubeButton />
       <Projects />
       <GreenArrowDown />

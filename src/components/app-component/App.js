@@ -9,10 +9,12 @@ import Portfolio from "../portfolio/Portfolio";
 import Recommendation from "../recommendation/Recommendation";
 import Reviews from "../reviews/Reviews";
 import Proud from "../proud/Proud";
+import Menu from "../menu/Menu";
 
 function App() {
   return (
     <SA.GridWrapper>
+      <Menu />
       <AboutMe />
       <Connect />
       <Skills />

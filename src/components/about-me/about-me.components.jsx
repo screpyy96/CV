@@ -25,7 +25,7 @@ const AboutMe = () => {
 
   return (
     <div>
-      <SectionTitle title={data.sectionTitle} />
+      <SectionTitle title={data.sectionTitle} id="about-me" />
       <YoutubeButton />
       <MT.MainTitle>{data.mainTitle}</MT.MainTitle>
       <MT.SubTitle>{data.subTitle}</MT.SubTitle>

@@ -24,7 +24,7 @@ const Skills = () => {
   }, []);
   return (
     <div>
-      <SectionTitle title={data.sectionTitle} />
+      <SectionTitle title={data.sectionTitle} id="skills" />
       <YoutubeButton />
       <Legend />
       <FrontEnd />

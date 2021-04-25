@@ -22,7 +22,7 @@ const Recommendation = () => {
 
   return (
     <>
-      <SectionTitle title={data?.sectionTitle} />
+      <SectionTitle title={data?.sectionTitle} id="recommendations" />
       <YoutubeButton />
       <Card />
       <GreenArrowDown />

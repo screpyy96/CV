@@ -541,5 +541,49 @@
         "content": "ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto. ipsum dolor sit amet consect voluptate impedit commodi iusto."
       }
     ]
+  },
+  "menu": {
+    "linksMenu": [
+      {
+        "link": "#about-me",
+        "title": "About Me"
+      },
+      {
+        "link": "#connect",
+        "title": "Let's Connect"
+      },
+      {
+        "link": "#skills",
+        "title": "Skills"
+      },
+      {
+        "link": "#experience",
+        "title": "Experience"
+      },
+      {
+        "link": "#open-source",
+        "title": "Open Source"
+      },
+      {
+        "link": "#portfolio",
+        "title": "Portfolio"
+      },
+      {
+        "link": "#recommendations",
+        "title": "Recommendations"
+      },
+      {
+        "link": "#reviews",
+        "title": "Reviews"
+      },
+      {
+        "link": "#proud",
+        "title": "Proud"
+      },
+      {
+        "icon": "cross",
+        "titleClose": "Close Menu"
+      }
+    ]
   }
 }

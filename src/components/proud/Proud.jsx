@@ -23,7 +23,7 @@ const Proud = () => {
   }, []);
   return (
     <>
-      <SectionTitle title={data.sectionTitle} />
+      <SectionTitle title={data.sectionTitle} id="proud" />
       <YoutubeButton />
       <SubTitle> {data.subTitle}</SubTitle>
       <BorderWrapper>

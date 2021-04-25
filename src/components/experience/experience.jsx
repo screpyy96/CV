@@ -22,7 +22,7 @@ const Experience = () => {
   }, []);
   return (
     <>
-      <SectionTitle title={data.sectionTitle} />
+      <SectionTitle title={data.sectionTitle} id="experience" />
       <YoutubeButton />
       <AccordionBorder>
         <AccordionTop />

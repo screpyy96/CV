@@ -24,7 +24,7 @@ const OpenSource = () => {
 
   return (
     <div>
-      <SectionTitle title={data.sectionTitle} />
+      <SectionTitle title={data.sectionTitle} id="open-source" />
       <YoutubeButton />
       <StatsSection />
       <AccordionSection />

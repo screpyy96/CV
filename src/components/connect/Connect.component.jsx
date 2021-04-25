@@ -26,7 +26,7 @@ const Connect = () => {
   // aici o sa prezint ce apare pe ecran
   return (
     <div>
-      <SectionTitle title={data.sectionTitle} />
+      <SectionTitle title={data.sectionTitle} id="connect" />
       <YoutubeButton />
       <CS.AvatarWrapper>
         <CS.AvatarImage />

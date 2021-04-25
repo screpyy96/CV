@@ -22,7 +22,7 @@ const Reviews = () => {
 
   return (
     <div>
-      <SectionTitle title={data.sectionTitle} />
+      <SectionTitle title={data.sectionTitle} id="reviews" />
       <YoutubeButton />
       {data?.cards?.map((item) => {
         return <ReviewCard item={item} />;
