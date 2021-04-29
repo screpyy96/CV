@@ -1,8 +1,8 @@
 import React from "react";
 import * as ST from "../section-title/SectionTitle.styled";
 
-const SectionTitle = ({ title }) => (
-  <div>
+const SectionTitle = ({ title, id }) => (
+  <div id={id}>
     <ST.SectionTitleWrapper>
       <ST.MainTitle>{title}</ST.MainTitle>
     </ST.SectionTitleWrapper>
