@@ -25,7 +25,7 @@ const ProjectsEntry = ({ project }) => {
     <>
       <BoxWrapper>
         <TitleStyle>{project.projectName}</TitleStyle>
-        <SkillName />
+        <SkillName project={project} />
       </BoxWrapper>
       <AccordionContent isOpen={isOpen}>
         <ProgrammingSkills>
