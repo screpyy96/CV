@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { SkillsStyle } from "./open-source.styled";
 
-const SkillName = () => {
+const SkillName = ({ project }) => {
   const [data, setData] = useState({});
 
   useEffect(() => {
@@ -19,14 +19,8 @@ const SkillName = () => {
   }, []);
   return (
     <>
-      {data?.projects?.project.map((skill) => {
-        return (
-          <div>
-            {skill?.skillsGained.map((item) => {
-              return <SkillsStyle>{item.skillName}</SkillsStyle>;
-            })}
-          </div>
-        );
+      {project?.skillsGained.map((skill) => {
+        return <SkillsStyle>{skill.skillName}</SkillsStyle>;
       })}
     </>
   );
