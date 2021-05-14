@@ -18,7 +18,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "sjs": "json-server --watch --port=5000 src/data/db.json",
+    "sjs": "json-server --watch --port=5010 src/data/db.json",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
