@@ -12,7 +12,7 @@ const Proud = () => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/proud")
+          await fetch("http://localhost:5010/proud")
         ).json();
         setData(result);
       };

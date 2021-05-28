@@ -9,7 +9,7 @@ const Legend = () => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/skills")
+          await fetch("http://localhost:5010/skills")
         ).json();
         setData(result);
       };

@@ -10,7 +10,7 @@ const AccordionSection = () => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/open-source")
+          await fetch("http://localhost:5010/open-source")
         ).json();
         setData(result);
       };

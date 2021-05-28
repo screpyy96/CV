@@ -9,7 +9,7 @@ const Menu = () => {
   useEffect(() => {
     try {
       const getResults = async () => {
-        const result = await (await fetch("http://localhost:5000/menu")).json();
+        const result = await (await fetch("http://localhost:5010/menu")).json();
         setData(result);
       };
       getResults();

@@ -10,7 +10,7 @@ const Reviews = () => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/reviews")
+          await fetch("http://localhost:5010/reviews")
         ).json();
         setData(result);
       };

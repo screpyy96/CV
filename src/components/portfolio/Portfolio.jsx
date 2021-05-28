@@ -10,7 +10,7 @@ const Portfolio = () => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/portfolio")
+          await fetch("http://localhost:5010/portfolio")
         ).json();
         setData(result);
       };

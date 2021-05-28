@@ -11,7 +11,7 @@ const Experience = () => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/experience")
+          await fetch("http://localhost:5010/experience")
         ).json();
         setData(result);
       };

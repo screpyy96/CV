@@ -13,7 +13,7 @@ const Connect = () => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/connect")
+          await fetch("http://localhost:5010/connect")
         ).json();
         setData(result);
       };

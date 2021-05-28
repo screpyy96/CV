@@ -13,7 +13,7 @@ const AboutMe = () => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/welcome")
+          await fetch("http://localhost:5010/welcome")
         ).json();
         setData(result);
       };
@@ -48,7 +48,7 @@ const DownloadButton = () => {
   useEffect(() => {
     try {
       const getResults = async () => {
-        const result = await fetch("http://localhost:5000/welcome");
+        const result = await fetch("http://localhost:5010/welcome");
         const resultParse = await result.json();
         setData(resultParse);
       };

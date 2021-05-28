@@ -10,7 +10,7 @@ const Recommendation = () => {
     try {
       const getResults = async () => {
         const result = await (
-          await fetch("http://localhost:5000/recommendations")
+          await fetch("http://localhost:5010/recommendations")
         ).json();
         setData(result);
       };
