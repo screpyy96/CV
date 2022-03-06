@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components';
 
 export const YoutubeButton = styled.div`
   width: 40px;
@@ -11,4 +11,9 @@ export const YoutubeButton = styled.div`
   color: white;
   margin: 40px auto;
   background-color: #d52027;
+`;
+
+export const LinkYoutube = styled.a`
+  display: flex;
+  justify-content: center;
 `;

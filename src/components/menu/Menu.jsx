@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from "react";
-import Icon from "../icomoon/IcoMoon.component";
-import { MenuWrapper, MenuLink, Hover, CloseMenu } from "./menu.styled";
+import React, { useEffect, useState } from 'react';
+import Icon from '../icomoon/IcoMoon.component';
+import { MenuWrapper, MenuLink, Hover, CloseMenu } from './menu.styled';
 
 const Menu = () => {
   const [data, setData] = useState({});
@@ -9,12 +9,12 @@ const Menu = () => {
   useEffect(() => {
     try {
       const getResults = async () => {
-        const result = await (await fetch("http://localhost:5010/menu")).json();
+        const result = await (await fetch('http://localhost:5010/menu')).json();
         setData(result);
       };
       getResults();
     } catch (error) {
-      console.log("nu merge useEffect", error);
+      console.log('nu merge useEffect', error);
     }
   }, []);
 
@@ -25,9 +25,9 @@ const Menu = () => {
   return (
     <>
       <MenuWrapper onClick={toggleButton}>
-        <Icon icon="menu" size="25" color="black" />
+        <Icon icon='menu' size='25' color='black' />
       </MenuWrapper>
-
+      {console.log(data.linksMenu)}
       <MenuLink isOpen={isOpen}>
         {data?.linksMenu?.map((item) => {
           return (
@@ -37,10 +37,10 @@ const Menu = () => {
 
                 <CloseMenu onClick={toggleButton}>
                   <Icon
-                    style={{ marginRight: "70px" }}
+                    style={{ marginRight: '70px' }}
                     icon={item.icon}
-                    size="30"
-                    color="black"
+                    size='30'
+                    color='black'
                   />
                   {item.titleClose}
                 </CloseMenu>
